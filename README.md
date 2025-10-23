@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -96,22 +96,22 @@
     <a href="https://www.freecodecamp.org/certification/fccd78807c4-1265-47a3-85fe-5479151dd9ea/foundational-c-sharp-with-microsoft" target="_blank">View Certificate</a>
   </div>
   <div class="card">
-    <h3>HackerRank Certification</h3>
+    <h3>Problem Solving</h3>
     <p>HackerRank</p>
     <a href="https://www.hackerrank.com/certificates/iframe/7a8e96fce396" target="_blank">View Certificate</a>
   </div>
   <div class="card">
-    <h3>Coursera Certificate 1</h3>
-    <p>Coursera</p>
+    <h3>Introduction to Databases for Back-End Development</h3>
+    <p>Meta</p>
     <a href="https://www.coursera.org/verify/02JTFW6QM33O" target="_blank">View Certificate</a>
   </div>
   <div class="card">
-    <h3>Coursera Certificate 2</h3>
-    <p>Coursera</p>
+    <h3>APIs</h3>
+    <p>Meta</p>
     <a href="https://www.coursera.org/verify/2BH9SMCTEJ3H" target="_blank">View Certificate</a>
   </div>
   <div class="card">
-    <h3>Udemy Certificate</h3>
+    <h3>ASP.NET MVC Plus For Seniors</h3>
     <p>Udemy</p>
     <a href="https://www.udemy.com/certificate/UC-7cf24b5b-fe9b-4004-b6ee-e394215c5fb2/" target="_blank">View Certificate</a>
   </div>
