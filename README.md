@@ -180,8 +180,7 @@
   <header>
     <div class="header-content">
       <!-- 👇 Add your photo here -->
-      <img src="![WhatsApp Image 2025-08-25 at 12 09 16_da44a018](https://github.com/user-attachments/assets/394c2437-747e-450e-8434-82e42f1e6180)
-" alt="Ahmad Dalleh" class="profile-photo">
+      <img src="![WhatsApp Image 2025-08-25 at 12 09 16_da44a018](https://github.com/user-attachments/assets/394c2437-747e-450e-8434-82e42f1e6180)" alt="Ahmad Dalleh" class="profile-photo">
       <h1>Ahmad Dalleh</h1>
       <h2>Backend Developer (.NET)</h2>
       <p>Dot Net Developer with hands-on experience in building scalable and high-performance backend solutions. Skilled in API development, ASP.NET Core, Entity Framework Core, SQL Server, Redis caching, and Domain-Driven Design (DDD). Strong knowledge of microservices, RESTful API design, and CI/CD pipelines using Azure DevOps. Passionate about delivering reliable enterprise applications with a focus on performance, scalability, and maintainability.</p>
