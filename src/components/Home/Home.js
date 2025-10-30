@@ -59,12 +59,14 @@ function Home() {
                     width: "320px",
                     height: "320px",
                     objectFit: "cover",
+                    objectPosition: "center 25%",
                     borderRadius: "12px",
                     border: "2px solid rgba(0,0,0,0.05)",
-                    boxShadow: "0 12px 30px rgba(0,0,0,0.25)",
+                    boxShadow: "0 8px 20px rgba(0,0,0,0.18)",
                     transition: "transform 0.25s ease, box-shadow 0.25s ease",
                     display: "block",
-                    margin: "0 auto"
+                    margin: "0 auto",
+                    filter: "contrast(1.05) saturate(1.03)"
                   }}
                 />
               </div>
