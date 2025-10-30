@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import profilePhoto from "../../Assets/ProfilePhotos/ahmad-profile.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import "../style.css";
+import Modal from "react-bootstrap/Modal";
 import Type from "./Type";
 import Techstack from "../About/Techstack";
 import Github from "../About/Github";
@@ -11,6 +12,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
+  const [showPhoto, setShowPhoto] = useState(false);
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -50,7 +52,14 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <div className="profile-card">
+              <div
+                className="profile-card"
+                role="button"
+                tabIndex={0}
+                onClick={() => setShowPhoto(true)}
+                onKeyDown={(e) => e.key === "Enter" && setShowPhoto(true)}
+                aria-label="Open profile photo"
+              >
                 <img
                   src={profilePhoto}
                   alt="Ahmad Dalleh"
@@ -108,6 +117,12 @@ function Home() {
           </Col>
         </Row>
       </Container>
+      {/* Photo modal */}
+      <Modal show={showPhoto} onHide={() => setShowPhoto(false)} centered size="lg">
+        <Modal.Body style={{ padding: 0 }}>
+          <img src={profilePhoto} alt="Ahmad Dalleh" style={{ width: "100%", height: "auto" }} />
+        </Modal.Body>
+      </Modal>
     </section>
   );
 }
