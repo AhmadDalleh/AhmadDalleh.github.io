@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
+import cvPdf from "../../Assets/Ahmad_Dalleh_CV.pdf";
 
 function ResumeNew() {
-  // Note: keep a PDF copy at /src/Assets/Ahmad_Dalleh_CV.pdf if you want the Download CV button to work
-  const pdfPath = "/Assets/Ahmad_Dalleh_CV.pdf";
+  const pdfPath = cvPdf;
 
   return (
     <div>
