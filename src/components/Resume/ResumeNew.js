@@ -8,9 +8,7 @@ import {
   SiRedis,
   SiMysql,
   SiPostgresql,
-  SiCsharp,
-  SiJava,
-  SiPython,
+  
   SiAzuredevops,
   SiGithub,
   SiSwagger,
@@ -110,9 +108,9 @@ function ResumeNew() {
             {/* Programming Languages */}
             <h5 className="purple" style={{ marginTop: 16 }}>Programming Languages</h5>
             <Row>
-              <Col xs={6} md={3} className="skill-item"><SiCsharp /> &nbsp; C#</Col>
-              <Col xs={6} md={3} className="skill-item"><SiJava /> &nbsp; Java</Col>
-              <Col xs={6} md={3} className="skill-item"><SiPython /> &nbsp; Python</Col>
+              <Col xs={6} md={3} className="skill-item"><FaCode /> &nbsp; C#</Col>
+              <Col xs={6} md={3} className="skill-item"><FaCode /> &nbsp; Java</Col>
+              <Col xs={6} md={3} className="skill-item"><FaCode /> &nbsp; Python</Col>
               <Col xs={6} md={3} className="skill-item"><FaCode /> &nbsp; C++</Col>
             </Row>
 
