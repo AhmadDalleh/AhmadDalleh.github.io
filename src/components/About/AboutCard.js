@@ -8,37 +8,38 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
+            Hi! I’m <span className="purple">Ahmad Dalleh</span> — a Backend
+            Developer based in <span className="purple">Dubai, UAE</span>.
             <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Contact: <span className="purple">ahmeddalleh8@gmail.com</span> | +971557487498
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+            Professional Summary: Backend Developer with hands-on experience
+            building scalable, high-performance backend solutions. Skilled in
+            API development, ASP.NET Core, Entity Framework Core, SQL Server,
+            Redis caching, and Domain-Driven Design (DDD). Strong knowledge of
+            microservices and CI/CD using Azure DevOps.
+            <br />
+            <br />
+            Core Technologies:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> ASP.NET Core, EF Core, ABP Framework
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> SQL Server, Redis, PostgreSQL, MySQL
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> Azure DevOps, GitHub, Swagger, Postman
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Delivering reliable, maintainable backend systems with a focus on performance."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Ahmad Dalleh</footer>
         </blockquote>
       </Card.Body>
     </Card>
