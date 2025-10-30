@@ -5,21 +5,18 @@ import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 import {
   SiDotnet,
-  SiMssql,
   SiRedis,
   SiMysql,
   SiPostgresql,
   SiCsharp,
   SiJava,
   SiPython,
-  SiTestcafe,
   SiAzuredevops,
   SiGithub,
   SiSwagger,
   SiPostman,
-  SiMicrodotnet,
 } from "react-icons/si";
-import { FaProjectDiagram, FaTools, FaLaptopCode } from "react-icons/fa";
+import { FaProjectDiagram, FaTools, FaLaptopCode, FaDatabase, FaCode } from "react-icons/fa";
 import cvPdf from "../../Assets/Ahmad_Dalleh_CV.pdf";
 
 function ResumeNew() {
@@ -87,7 +84,7 @@ function ResumeNew() {
             {/* Databases & Caching */}
             <h5 className="purple" style={{ marginTop: 16 }}>Databases & Caching</h5>
             <Row>
-              <Col xs={6} md={3} className="skill-item"><SiMssql /> &nbsp; SQL Server</Col>
+              <Col xs={6} md={3} className="skill-item"><FaDatabase /> &nbsp; SQL Server</Col>
               <Col xs={6} md={3} className="skill-item"><SiRedis /> &nbsp; Redis</Col>
               <Col xs={6} md={3} className="skill-item"><SiMysql /> &nbsp; MySQL</Col>
               <Col xs={6} md={3} className="skill-item"><SiPostgresql /> &nbsp; PostgreSQL</Col>
@@ -116,7 +113,7 @@ function ResumeNew() {
               <Col xs={6} md={3} className="skill-item"><SiCsharp /> &nbsp; C#</Col>
               <Col xs={6} md={3} className="skill-item"><SiJava /> &nbsp; Java</Col>
               <Col xs={6} md={3} className="skill-item"><SiPython /> &nbsp; Python</Col>
-              <Col xs={6} md={3} className="skill-item"><SiCsharp /> &nbsp; C++</Col>
+              <Col xs={6} md={3} className="skill-item"><FaCode /> &nbsp; C++</Col>
             </Row>
 
             {/* Soft Skills */}
