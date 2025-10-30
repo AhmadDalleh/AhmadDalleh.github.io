@@ -14,27 +14,15 @@ function AboutCard() {
             Contact: <span className="purple">ahmeddalleh8@gmail.com</span> | +971557487498
             <br />
             <br />
-            Professional Summary: Backend Developer with hands-on experience
+            Backend Developer with hands-on experience
             building scalable, high-performance backend solutions. Skilled in
             API development, ASP.NET Core, Entity Framework Core, SQL Server,
             Redis caching, and Domain-Driven Design (DDD). Strong knowledge of
             microservices and CI/CD using Azure DevOps.
             <br />
             <br />
-            Core Technologies:
+            {/* <strong className="purple">ASP.NET Core</strong>, <strong className="purple">SQL Server</strong>, <strong className="purple">Redis</strong>, <strong className="purple">Azure DevOps</strong>. */}
           </p>
-
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> ASP.NET Core, EF Core, ABP Framework
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> SQL Server, Redis, PostgreSQL, MySQL
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Azure DevOps, GitHub, Swagger, Postman
-            </li>
-          </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Delivering reliable, maintainable backend systems with a focus on performance."

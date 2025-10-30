@@ -10,7 +10,6 @@ import Toolstack from "./Toolstack";
 function About() {
   return (
     <>
-      {" "}
       <Particle />
       <Container fluid className="about-section">
         <Container>
@@ -28,6 +27,7 @@ function About() {
               </h1>
               <Aboutcard />
             </Col>
+
             <Col
               md={5}
               style={{ paddingTop: "120px", paddingBottom: "50px" }}
@@ -36,6 +36,9 @@ function About() {
               <img src={laptopImg} alt="about" className="img-fluid" />
             </Col>
           </Row>
+
+          {/* Professional skills moved into Techstack to avoid duplication */}
+
           <h1 className="project-heading">
             Professional <strong className="purple">Skillset </strong>
           </h1>
