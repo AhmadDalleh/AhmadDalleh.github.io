@@ -23,7 +23,7 @@ function Projects() {
               isBlog={false}
               title="E-Commerce Backend (nopCommerce-inspired)"
               description="Designed a modular backend system for products, orders, customers and payments using layered architecture and DDD. Implemented RESTful APIs, Redis caching and deployed on Azure."
-              ghLink="https://github.com/AhmadDalleh"
+              ghLink="https://github.com/AhmadDalleh/ECommerce"
             />
           </Col>
 
@@ -31,9 +31,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Dynamic Research CMS"
-              description="Secure admin dashboard for adding and managing research content with role-based access control and optimized SQL queries; deployed to Azure."
-              ghLink="https://github.com/AhmadDalleh"
+              title="Space Weather Prediction"
+              description="Machine learning model for space weather prediction with a secure admin dashboard. Features role-based access control and optimized data processing pipeline."
+              ghLink="https://github.com/AhmadDalleh/SpaceWeatherPrediction"
             />
           </Col>
 
