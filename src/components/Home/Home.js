@@ -50,34 +50,21 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <div 
-                style={{
-                  position: "relative",
-                  padding: "20px",
-                  background: "linear-gradient(135deg, rgba(147, 88, 247, 0.1), rgba(17, 17, 17, 0.2))",
-                  borderRadius: "50%",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  backdropFilter: "blur(5px)",
-                  transition: "transform 0.3s ease-in-out",
-                  cursor: "pointer",
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.02)"}
-                onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}
-              >
+              <div className="profile-card">
                 <img
                   src={profilePhoto}
                   alt="Ahmad Dalleh"
-                  className="img-fluid rounded-circle"
+                  className="img-fluid"
                   style={{
-                    maxHeight: "400px",
-                    width: "100%",
-                    height: "100%",
+                    width: "320px",
+                    height: "320px",
                     objectFit: "cover",
-                    border: "4px solid rgba(147, 88, 247, 0.3)",
-                    boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
-                    transition: "all 0.3s ease-in-out",
+                    borderRadius: "12px",
+                    border: "2px solid rgba(0,0,0,0.05)",
+                    boxShadow: "0 12px 30px rgba(0,0,0,0.25)",
+                    transition: "transform 0.25s ease, box-shadow 0.25s ease",
+                    display: "block",
+                    margin: "0 auto"
                   }}
                 />
               </div>

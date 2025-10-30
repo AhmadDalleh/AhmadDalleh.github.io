@@ -99,3 +99,18 @@
     font-size: 2em;
   }
 }
+
+/* Profile card for home photo */
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+@media (max-width: 767px) {
+  .profile-card img {
+    width: 220px !important;
+    height: 220px !important;
+  }
+}
